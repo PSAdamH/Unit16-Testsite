@@ -1,0 +1,25 @@
+.container {
+    width: 100vh;
+    height: 25vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    background-image: linear-gradient(rgba(255, 0, 234, 0.75), rgba(88, 229, 248, 0.75));
+    box-shadow: 5px 20px 20px 5px rgba(114, 49, 12, 0.3);
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 32vh;
+    height: 50%;
+}
+.button:hover {
+    box-shadow: 5px 20px 20px 5px rgba(94, 40, 9, 0.5);
+    background-image: linear-gradient(rgb(255, 0, 191), rgb(0, 238, 255));
+}
